@@ -12,15 +12,15 @@ namespace HelloWorld_Jefferson
             //asks for the user's name
             Console.WriteLine("What is your first name?");
             //assigns user input to firstname
-            string firstname = Console.ReadLine();
+            string firstName = Console.ReadLine();
 
             //asks for the user's last name
             Console.WriteLine("What is your last name?");
             //assigns user input to lastname
-            string lastname = Console.ReadLine();
+            string lastName = Console.ReadLine();
 
             //prints a welcome message with the user's first and last name
-            Console.WriteLine($"Hello, {firstname} {lastname} ");
+            Console.WriteLine($"Hello, {firstName} {lastName} ");
         }
     }
 }
